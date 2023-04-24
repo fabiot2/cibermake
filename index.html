@@ -7,9 +7,13 @@
     <title>Links</title>
     <style>
         :root {
-            --font-xl: ;
-            --font-m:1.6rem;
-            --font-s:1.26rem;
+            --e-global-typography-accent-font-size: ;
+            --e-global-typography-3a24e11-font-size:1.6rem;
+            --e-global-typography-accent-font-size:1.26rem;
+            --e-global-color-astglobalcolor2: #E86B85;
+            --e-global-color-astglobalcolor1: #FEF6F7;
+            --e-global-color-astglobalcolor3: #2D3131;
+            --e-global-color-astglobalcolor5: #FFFFFF;
         }
 
         * {
@@ -25,21 +29,143 @@
 
         body {
             width: 90vw;
-            min-height: 98vh;
+            min-height: 100vh;
+            padding-bottom: 0.4rem;
             margin: 0 auto;
             font-size: 1.6rem;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            background-color: var(--e-global-color-astglobalcolor5);
+            background-image: url('https://cibermake.34host.xyz/wp-content/uploads/2023/04/Component-79-–-1.webp');
+            background-position: top 20px center;
+            background-size: auto;
+            background-repeat: no-repeat;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--e-global-color-astglobalcolor2);
+            font-size: var(--e-global-typography-accent-font-size);
         }
 
         .cm__container-master {
             max-width: 28.2rem;
             min-width: 28.2rem;
-            height: 60vh;
+            height: 400px;
+            margin: 0 auto 1rem auto ;
         }
         
+        .cm__links-container {
+            max-width: 28.2rem;
+            min-width: 28.2rem;
+            height: 20rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+        .cm__links-container .cm__links-button a {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 4rem;
+            min-width: 28.2rem;
+            padding: 0.8rem 1rem;
+            background-color: var(--e-global-color-astglobalcolor1);
+            border-radius: 1.4rem;
+            color: var(--e-global-color-astglobalcolor2);
+            font-weight: 400;
+            font-size: var( --e-global-typography-3a24e11-font-size);
+        }
+
+        .cm__links-container .cm__links-button a span {
+            align-self: center;
+        }
+
+        .cm__links-container .links__button-rosa a {
+            background-color: var(--e-global-color-astglobalcolor2);
+            color: var(--e-global-color-astglobalcolor1);
+        }
+
+        .cm__links-button img {
+            width: 3.2rem;
+            height: 3.2rem;
+            align-self: center;
+        }
+
+
+        .contacto__container {
+            width: 28.2rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+                
+        .contacto__container > span{
+            color: var(--e-global-color-astglobalcolor2);
+            font-size: var( --e-global-typography-3a24e11-font-size);
+            font-weight: 600;
+        }
+
+        .contacto__iconos-container {
+            width: 28.2rem;
+            margin-top: 1.2rem;
+        }
+
+        .contacto__iconos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .contacto__iconos-container a {
+            display: inline-block;
+        }
+
+        .contacto__iconos-container img {
+            width: 3.2rem;
+            height: 3.2rem;
+            display: block;
+            margin-left: 0.2rem;
+        }
+
+        .iconos__container span {
+            display: block;
+            margin-top: 0.8rem;
+            color: var(--e-global-color-astglobalcolor3);
+            font-size: var(--e-global-typography-accent-font-size);
+        }
+
+        .redes__container {
+            margin-top: 2.4rem;
+            height: 7.1rem;
+            width: 100%;
+        }
+
+        .cm__redes-container {
+            margin-top: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .redes__container span {
+            color: var(--e-global-color-astglobalcolor3);
+            font-size: var( --e-global-typography-3a24e11-font-size);
+        }
+
+        .cm__redes-icon {
+            width: 4rem;
+            height: 4rem;
+        }
+
         .coded__container {
+            text-align: right;
         }
 
     </style>
@@ -51,25 +177,25 @@
             <ul class="cm__links-container">
                 <li class="cm__links-button links__button-rosa">
                     <a href="https://cibermake.34host.xyz">
-                        Comprar en Página Web <span class="cm__button button__shop">i</span>
+                        <span>Comprar en Página Web </span> <img class="cm__button button__shop" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/bag.webp">
                     </a>
                 </li>
     
                 <li class="cm__links-button links__button-rosa">
-                    <a href="https://cibermake.34host.xyz">
-                        Seguimiento a mi pedido <span class="cm__button button__gps">i</span>
+                    <a href="https://www.servientrega.com/wps/portal/rastreo-envio/" target="_blank">
+                        <span>Seguimiento a mi Pedido</span><img class="cm__button button__gps" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/gps.webp">
                     </a>
                 </li>
     
                 <li class="cm__links-button">
                     <a href="https://cibermake.34host.xyz">
-                        Blog de Maquillaje <span class="cm__button button__maquillaje">i</span>
+                        <span>Blog de Maquillaje</span><img class="cm__button button__maquillaje" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/left.webp">
                     </a>
                 </li>
     
                 <li class="cm__links-button">
                     <a href="https://cibermake.34host.xyz">
-                        Catálogo Mayoristas <span class="cm__button button__store">i</span>
+                        <span>Catálogo Mayoristas</span><img class="cm__button button__store" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/shop.webp">
                     </a>
                 </li>
             </ul>
@@ -77,63 +203,55 @@
     
     
         <div class="contacto__container">
-            <span>Contáctanos</span>
+            <span>¡Aquí te Asesoramos!</span>
                 <figure class="contacto__iconos-container">
                     <a href="#buga" target="_blank" class="iconos__container">
                         <img src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/whatsapp-1.webp" alt="whatsapp icon">
-                        <caption>Buga</caption>
                         </img>
+                        <span>Buga</span>
                     </a>
     
                     <a href="#tulua" target="_blank" class="iconos__container">
                         <img src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/whatsapp-1.webp" alt="whatsapp icon">
-                        <caption>Tuluá</caption>
                         </img>
+                        <span>Tuluá</span>
                     </a>
     
                     <a href="#bogota" target="_blank" class="iconos__container">
                         <img src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/whatsapp-1.webp" alt="whatsapp icon">
-                        <caption>Bogotá</caption>
                         </img>
+                        <span>Bogotá</span>
                     </a>
-                </figure>
+
+                   </figure>
     
         </div>
     
         <nav class="redes__container">
             <span>Síguenos</span>
-            <ul class="cm__redes-container">
-                <li>
-                    <a href="https://www.instagram.com/cibermake/">
-                       <span class="cm__redes-icon redes-icon__instagram">i</span>
-                    </a>
-                </li>
+            <div class="cm__redes-container">
+               
+                <a href="https://www.instagram.com/cibermake/">
+                       <img class="cm__redes-icon redes-icon__instagram" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/Component-74-–-1.webp">
+                </a>
     
-                <li>
-                    <a href="https://www.facebook.com/cibermake">
-                        <span class="cm__redes-icon redes-icon__facebook">i</span>
-                    </a>
-                </li>
+                <a href="https://www.facebook.com/cibermake">
+                        <img class="cm__redes-icon redes-icon__facebook" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/Component-75-–-1.webp">
+                </a>
     
-                <li>
-                    <a href="https://www.tiktok.com/@cibermake">
-                        <span class="cm__redes-icon redes-icon__tiktok">i</span>
-                    </a>
-                </li>
+                <a href="https://www.tiktok.com/@cibermake">
+                        <img class="cm__redes-icon redes-icon__tiktok" src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/Component-76-–-1.webp">
+                </a>
     
-                <li>
-                    <a href="https://www.youtube.com/@cibermake5300">
-                        <span class="cm__redes-icon redes-icon__youtube">i</span>
-                    </a>
-                </li>
+                <a href="https://www.youtube.com/@cibermake5300">
+                        <img class="cm__redes-icon redes-icon__youtube"src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/Component-77-–-1.webp">
+                </a>
     
-                <li>
-                    <a href="https://twitter.com/cibermake">
-                        <span class="cm__redes-icon redes-icon__twitter">i</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                <a href="https://twitter.com/cibermake">
+                        <img class="cm__redes-icon redes-icon__twitter"src="https://cibermake.34host.xyz/wp-content/uploads/2023/04/Component-78-–-1.webp">
+                </a>
+
+            </div>
 
     </div>
    
